@@ -1,0 +1,77 @@
+body {
+    font-size: 16px;
+    color: #181818;
+}
+
+
+#header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid black;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #1b1b25;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    background-color: #abacab;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #454644;
+}
+
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: gray;
+    margin-bottom: 60px;
+}
